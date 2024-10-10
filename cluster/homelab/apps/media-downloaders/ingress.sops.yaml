@@ -6,7 +6,7 @@ metadata:
     annotations:
         gethomepage.dev/enabled: ENC[AES256_GCM,data:25VhZg==,iv:91Bv4sJDfiLeNhBBNjts8mFqO9pORCbMg/03FIbKNQM=,tag:a3EhN4sxiEZqFyBwV5DHaA==,type:str]
         gethomepage.dev/description: ENC[AES256_GCM,data:5lOhJ/FLXXHb8QfnRK0OiLrFpXbludc4e4QZFHjPK/PrLDrHIBxeOZ9OwhA=,iv:lxGRcqeqvBaugp1RZIPFf2cbmEkBpTTs5SEgDTBfxUk=,tag:+eHffxwbpOQ+Pv3FZpN8Gg==,type:str]
-        gethomepage.dev/group: ENC[AES256_GCM,data:lrQOWfscg5tn+AbSIrvjI2Y=,iv:warmEha2FRFNAi0ZwoPvmlYL8loqmOt+1j+VMNWTrJM=,tag:qL3K0pgj8KnQPFH0bH/F4Q==,type:str]
+        gethomepage.dev/group: ENC[AES256_GCM,data:W0L/bkJ+MDIw9r1or00wCA==,iv:6Om1+arz44VtVHI4BY/9qVJG3ccf9o19TBKeLGAvJMw=,tag:4cV9OnMjvZ62c+LI8qO+tA==,type:str]
         gethomepage.dev/icon: ENC[AES256_GCM,data:y4AlCuFs6l14uxc=,iv:45KK55gMZYXNyBKrnBTghXjg4R040BzHYX9LnAZu+GQ=,tag:heqVQ/MLUG2RFc+oWrzLng==,type:str]
         gethomepage.dev/name: ENC[AES256_GCM,data:KKqyEnR7fL4f+F8=,iv:g8xm5EMtUKbzp5xvelHWBIbqWvmbXEY/p1Rm1hx/4YA=,tag:12zK0r+sWyXM824jzmc7aA==,type:str]
         gethomepage.dev/href: ENC[AES256_GCM,data:bbDpOsqfDuxKF+4G7y6FsCGUGi4fqjsC6pjLGlpbiKMg+Mbaaw==,iv:eGM2JubRQHys6jFtpqN0ZKGwdX9n178Xq/dHOv25s/c=,tag:eAVIgdaNFKKb+MxtoACRFw==,type:str]
@@ -29,11 +29,11 @@ sops:
             Mmg3aDRwZW54a1ZyZytmUFhjUEtDNHMKGZxZ//O4puSOs/H5pwK8eFsLCL69YrJK
             p9xrjiTjXUFC+pzE5YFsXgeOslTFnieufL5sZztaKssKFyMduH0t+Q==
             -----END AGE ENCRYPTED FILE-----
-    lastmodified: "2024-10-04T04:10:16Z"
-    mac: ENC[AES256_GCM,data:i5SutefSljnA8uB5I0aFoFeTRN17dshrJp6jsClm8ESEcrCuTzuAhzrwlFf4cR5g15muVWYfI2eG2HgQUQJmAt5FZuYTKH5LaEX8XSVrhblAx2mTh8LFRNMyGsXO/72IogebOvl/qBgGh9JDXiz//Ji88daj8umfc5YU9oasNKE=,iv:gltfgB20gFrhr4w8HtUkd+Op06Mdvxe7qo8oH8Y+MQ4=,tag:qEfUpLjMvohn9NfU0zupSQ==,type:str]
+    lastmodified: "2024-10-10T09:03:33Z"
+    mac: ENC[AES256_GCM,data:XTakZAUDkZfRckfVcE6RAY9QXqiIt+GKjT6YalNyhdjjjrTyWXSkbRvL8331MlqJgwa72bovTParbreCSDxncmq1f0zNbUOLqkU47gPVu3P9eSYVqNneUJhQesnzwZsquCiuD4MgESAzyYXuvDUM2K+PzUdBNguC+hXwGPO2GBY=,iv:ihjMyp9zQ++gOjgzQc0v8IzmWFg90xnqWxK63LN2dmQ=,tag:vYwRxgF8U4tlYJI74iVVCg==,type:str]
     pgp: []
     encrypted_regex: ^(rules|annotations|)$
-    version: 3.9.0
+    version: 3.9.1
 ---
 apiVersion: networking.k8s.io/v1
 kind: Ingress
@@ -43,7 +43,7 @@ metadata:
     annotations:
         gethomepage.dev/enabled: ENC[AES256_GCM,data:25VhZg==,iv:91Bv4sJDfiLeNhBBNjts8mFqO9pORCbMg/03FIbKNQM=,tag:a3EhN4sxiEZqFyBwV5DHaA==,type:str]
         gethomepage.dev/description: ENC[AES256_GCM,data:2cgJmXR9kj35nKUZl7SfxtbSxn/AO+LTvFz3,iv:AH7VA2flYtvPiG/OAZHS7FnI4gY+IvnVAN/SRxcVm8s=,tag:LyN/OhuUEBivfDlWfk8OuA==,type:str]
-        gethomepage.dev/group: ENC[AES256_GCM,data:lrQOWfscg5tn+AbSIrvjI2Y=,iv:warmEha2FRFNAi0ZwoPvmlYL8loqmOt+1j+VMNWTrJM=,tag:qL3K0pgj8KnQPFH0bH/F4Q==,type:str]
+        gethomepage.dev/group: ENC[AES256_GCM,data:1BaX7jHoLUJfOZLOU2L2sw==,iv:wj8LO9GdN8IqBfi3QRckfr706PXFdAJn03rOYnyxdTQ=,tag:7FmWRfJzSiX9hX64TY1FFw==,type:str]
         gethomepage.dev/icon: ENC[AES256_GCM,data:icmarjj6/A==,iv:FJ6Qyv1POW1j+Li3xFvaPlRET+dl0DmMnwcDeO/KWJY=,tag:Daf5WRZt0b50hRO5iDSF7A==,type:str]
         gethomepage.dev/name: ENC[AES256_GCM,data:yjQUF1kU4g==,iv:JruluAYixVL//3WmUC9l9hWtOcKqT651HcU5Sc0Y8J0=,tag:DJU6ZZ7GORLXEanrg9i/7A==,type:str]
         gethomepage.dev/href: ENC[AES256_GCM,data:ZfDOWLqwem83J7a6LN1SVp5KaaKLRaWTx3Htic1PPMi0,iv:QvH8mClNM+GDRzMxqjEJeksmiU/lXnkA2BbxRe09LTo=,tag:IpCS5DtQ3V4SUd4qpPr5UA==,type:str]
@@ -65,8 +65,8 @@ sops:
             Mmg3aDRwZW54a1ZyZytmUFhjUEtDNHMKGZxZ//O4puSOs/H5pwK8eFsLCL69YrJK
             p9xrjiTjXUFC+pzE5YFsXgeOslTFnieufL5sZztaKssKFyMduH0t+Q==
             -----END AGE ENCRYPTED FILE-----
-    lastmodified: "2024-10-04T04:10:16Z"
-    mac: ENC[AES256_GCM,data:i5SutefSljnA8uB5I0aFoFeTRN17dshrJp6jsClm8ESEcrCuTzuAhzrwlFf4cR5g15muVWYfI2eG2HgQUQJmAt5FZuYTKH5LaEX8XSVrhblAx2mTh8LFRNMyGsXO/72IogebOvl/qBgGh9JDXiz//Ji88daj8umfc5YU9oasNKE=,iv:gltfgB20gFrhr4w8HtUkd+Op06Mdvxe7qo8oH8Y+MQ4=,tag:qEfUpLjMvohn9NfU0zupSQ==,type:str]
+    lastmodified: "2024-10-10T09:03:33Z"
+    mac: ENC[AES256_GCM,data:XTakZAUDkZfRckfVcE6RAY9QXqiIt+GKjT6YalNyhdjjjrTyWXSkbRvL8331MlqJgwa72bovTParbreCSDxncmq1f0zNbUOLqkU47gPVu3P9eSYVqNneUJhQesnzwZsquCiuD4MgESAzyYXuvDUM2K+PzUdBNguC+hXwGPO2GBY=,iv:ihjMyp9zQ++gOjgzQc0v8IzmWFg90xnqWxK63LN2dmQ=,tag:vYwRxgF8U4tlYJI74iVVCg==,type:str]
     pgp: []
     encrypted_regex: ^(rules|annotations|)$
-    version: 3.9.0
+    version: 3.9.1
