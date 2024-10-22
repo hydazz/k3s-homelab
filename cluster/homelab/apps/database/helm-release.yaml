@@ -54,7 +54,7 @@ spec:
   chart:
     spec:
       chart: postgresql
-      version: 12.12.10 # controls postgres version PIN TO 12
+      version: 16.0.5 # controls postgres version PIN TO 12
       interval: 5m
       sourceRef:
         kind: HelmRepository
